@@ -1,0 +1,26 @@
+/* CSS files add styling rules to your content */
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background-color:rgb(194, 173, 146);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+.jumbotron {
+  background-image: url("https://wallpapers.com/images/hd/anime-cool-pictures-1920-x-1080-bco6cnf8ea5ez1la.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: green;
+}
